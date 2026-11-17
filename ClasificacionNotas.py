@@ -1,0 +1,17 @@
+# CUERPO
+print("Ingrese la letra de calificación (A, B, C, D, F):")
+letra = input()
+# CALCULO / RESULTADO
+match letra:
+    case "A":
+        print("Rango de nota: 9 - 10")
+    case "B":
+        print("Rango de nota: 8 - 8.9")
+    case "C":
+        print("Rango de nota: 7 - 7.9")
+    case "D":
+        print("Rango de nota: 6 - 6.9")
+    case "F":
+        print("Rango de nota: 0 - 5.9")
+    case _:
+        print("Letra de calificación no válida.")
